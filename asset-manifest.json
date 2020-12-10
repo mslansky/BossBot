@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BossBot/static/css/main.e0ee1b25.chunk.css",
+    "main.css": "/BossBot/static/css/main.047f35f2.chunk.css",
     "main.js": "/BossBot/static/js/main.7aec1276.chunk.js",
     "main.js.map": "/BossBot/static/js/main.7aec1276.chunk.js.map",
     "runtime-main.js": "/BossBot/static/js/runtime-main.1d63d869.js",
@@ -10,13 +10,13 @@
     "static/js/3.d03d2596.chunk.js": "/BossBot/static/js/3.d03d2596.chunk.js",
     "static/js/3.d03d2596.chunk.js.map": "/BossBot/static/js/3.d03d2596.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e0ee1b25.chunk.css.map": "/BossBot/static/css/main.e0ee1b25.chunk.css.map",
+    "static/css/main.047f35f2.chunk.css.map": "/BossBot/static/css/main.047f35f2.chunk.css.map",
     "static/js/2.fc438bdc.chunk.js.LICENSE.txt": "/BossBot/static/js/2.fc438bdc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1d63d869.js",
     "static/js/2.fc438bdc.chunk.js",
-    "static/css/main.e0ee1b25.chunk.css",
+    "static/css/main.047f35f2.chunk.css",
     "static/js/main.7aec1276.chunk.js"
   ]
 }
