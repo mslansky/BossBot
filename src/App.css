@@ -51,6 +51,7 @@ li{
 
 /* User Textbox */
 .footer{
+  margin-top:15px;
   position: fixed;
   left: 0;
   bottom: 0;

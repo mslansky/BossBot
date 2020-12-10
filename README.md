@@ -21,6 +21,5 @@ The intention is : If a User is able to successful practice beforehand, they wil
 Tech Stack: This project utilizes Reactjs, Bootstrap, JSX, Github Pages
 
 
-
 Cited Study: https://gap.hks.harvard.edu/do-women-avoid-salary-negotiations-evidence-large-scale-natural-field-experiment
 Leibbrandt, Andreas, and John A. List. "Do women avoid salary negotiations? Evidence from a large-scale natural field experiment." Management Science 61.9 (2015): 2016-2024.
