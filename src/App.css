@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+
+/* Instruction Button */
+a{
+  text-decoration: none;
+  color: #A1E8AF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:hover{
+  color: #f1f1f1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Green SideNav Box */
+.sidenav {
+  position: absolute;
+  height: 100%;
+  width: 190px;
+  top: 0;
+  left: 0;
+  background-color: #A1E8AF;
+  opacity: .3;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+
+.conversation{
+  margin-left: 190px;
+  margin-right: 0;
+  height: 100vh;
+  width: 100vh;
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* User Textbox */
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-align: center;
 }
