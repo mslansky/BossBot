@@ -17,6 +17,7 @@ than women."
 The hope behind BOSSBOT is that anyone can use it to become more confident in thier arguements. 
 The intention is : If a User is able to successful practice beforehand, they will be more comfortable to successfully approach a conversation regarding higher compensation.
 
+*IN THE FUTURE THIS APPLICATION WILL BE UPDATED TO BE MOBILE-FRIENDLY*
 
 Tech Stack: This project utilizes Reactjs, Bootstrap, JSX, Github Pages
 
