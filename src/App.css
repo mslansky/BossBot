@@ -21,6 +21,8 @@ a:hover{
   padding-top: 20px;
 }
 
+
+
 .conversation{
   background-color:white;
   margin-bottom: 20px;
@@ -37,17 +39,45 @@ ul{
   padding-bottom: 3px;
 }
 
-li{
-  color:#818181;
+
+.User{
+  text-align: left;
+  list-style: none;
+  background-color:#f1f1f1;
+  color:#453F3C;
   border: 2px solid #dedede;
-  background-color: #f1f1f1;
-  border-radius: 5px;
+  background-color: #C2C2C2;
+  border-radius: 15px;
   padding: 10px;
   margin-top: 70px;
+  margin-left: 75px;
   margin-right: 35px;
 }
 
+.Boss{
+  list-style: none;
+  color:#f1f1f1;
+  border: 2px solid #dedede;
+  background-color: #495057;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 70px;
+  margin-right: 35px;
+  font-style: bold;
+}
 
+.Hintbot{
+  list-style-type: none;
+  list-style: none;
+  color:#818181;
+  border: 2px solid #A1E8AF;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 70px;
+  margin-right: 35px;
+  font-style: italic;
+}
 
 /* User Textbox */
 .footer{

@@ -3,7 +3,7 @@ const convoStages = ["Start", "WhatPrompted", "Performance", "OtherTopics", "Sal
 
 const HintBotPrompts = {
   "Start": `Hi I'm HintBot, your assistant for today's practice. To start, you'll need to ask your 'manager' to talk 
-  about compensation. This is often the hardest part of the conversation remember to be direct! It's normal and reasonable to ask for a raise.`,
+  about compensation. This is often the hardest part of the conversation so remember to be direct! It's normal and reasonable to ask for a raise.`,
   "WhatPrompted": `*Hintbot Here!* This is a good chance to provide context to the conversation. There are many opportunities to talk 
   about your salary. Maybe you've had new responsibilities at work, completed an impactful project, been putting in 
   extra hours or just been in your role for quite some time. If your company has a specifc time when raises occur, 
@@ -21,11 +21,11 @@ const HintBotPrompts = {
 
 const BossBotPrompts = {
   "Start": null,
-  "WhatPrompted": "What prompted you to bring this up?",
-  "Performance": "Okay, Let's talk about your performance in detail.",
-  "OtherTopics": "You're making a compelling case. Is there anything else you'd like to discuss?",
-  "OtherTopicsResponse": "Those are some great questions. I'll have to get back to you on those.",
-  "Salary": "Okay, thanks for being specific. That makes my job easier. You've given me the right info to take the next steps, I will let you know what I decide.",
+  "WhatPrompted": "BossBot: What prompted you to bring this up?",
+  "Performance": "BossBot: Okay, Let's talk about your performance in detail.",
+  "OtherTopics": "BossBot: You're making a compelling case. Is there anything else you'd like to discuss?",
+  "OtherTopicsResponse": "BossBot: Those are some great questions. I'll have to get back to you on those.",
+  "Salary": "BossBot: Okay, thanks for being specific. That makes my job easier. You've given me the right info to take the next steps, I will let you know what I decide.",
   "Finish": null
 };
 

@@ -21,10 +21,11 @@ export default class App extends React.Component{
     const {BossBot, HintBot} = prompt();
     let botMessage = [];
     if(BossBot){
-      botMessage.push(BossBot)
+      botMessage.push({user: 
+        'Boss', message: BossBot})
     }
     if(HintBot){
-      botMessage.push(HintBot)
+      botMessage.push({user: 'Hintbot', message: HintBot})
     }
     this.setState({
       messages: [...this.state.messages, ...botMessage]
@@ -45,16 +46,18 @@ export default class App extends React.Component{
 
   addMessage(message){
     console.log(this.state.messages);
+    const messageObject = {user: 'User', message: message}
     this.setState({
-      messages: [...this.state.messages, message]
+      messages: [...this.state.messages, messageObject]
     }, () => {
       const {BossBot, HintBot} = prompt();
       let botMessage = [];
       if(BossBot){
-        botMessage.push(BossBot)
+        botMessage.push({user: 
+          'Boss', message: BossBot})
       }
       if(HintBot){
-        botMessage.push(HintBot)
+        botMessage.push({user: 'Hintbot', message: HintBot})
       }
       this.setState({
         messages: [...this.state.messages, ...botMessage]
@@ -102,7 +105,7 @@ export default class App extends React.Component{
 
       <main>
         <div className="conversation">
-       <ul>{this.state.messages.map((e) => (<li key="userMessage">{e}</li>))}</ul>
+       <ul>{this.state.messages.map((e) => (<li key="userMessage" className={e.user}>{e.message}</li>))}</ul>
         </div>
       </main>
 
