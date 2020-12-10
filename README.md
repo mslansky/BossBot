@@ -1,71 +1,26 @@
-# Getting Started with Create React App
+This Project Was Built for the Social Justice Hackathon hosted by Mintbean.io and App Academy.
+by Madison Slansky
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The purpose of this application is to allow for the User to practice salary negotiations. 
 
-## Available Scripts
+BOSSBOT allows for the User to input conversation, and practice what they want to say. 
+Linked adviced and a Hintbot are also included to help the User determine specifics.
 
-In the project directory, you can run:
+BOSSBOT simulates a short, natural conversation that could take place. 
 
-### `npm start`
+BOSSBOT was created with the intention of being specifically aware of the Gender Wage Gap. 
+A study from Harvard concluded that:
+"Gender differences in negotiation were also dependent on whether there was an explicit statement that wages were negotiable. 
+The authors found that when there was no explicit statement that wages are negotiable, men were more likely to negotiate 
+than women." 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The hope behind BOSSBOT is that anyone can use it to become more confident in thier arguements. 
+The intention is : If a User is able to successful practice beforehand, they will be more comfortable to successfully approach a conversation regarding higher compensation.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+Tech Stack: This project utilizes Reactjs, Bootstrap, JSX, Github Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# BossBot
+Cited Study: https://gap.hks.harvard.edu/do-women-avoid-salary-negotiations-evidence-large-scale-natural-field-experiment
+Leibbrandt, Andreas, and John A. List. "Do women avoid salary negotiations? Evidence from a large-scale natural field experiment." Management Science 61.9 (2015): 2016-2024.
