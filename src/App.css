@@ -31,6 +31,7 @@ a:hover{
   width: 100vh;
   overflow: scroll;
   margin-right: 35px;
+  padding-top:75px;
 }
 
 ul{
@@ -45,7 +46,7 @@ ul{
   list-style: none;
   background-color:#f1f1f1;
   color:#453F3C;
-  border: 2px solid #dedede;
+  border: 2px solid #C3BABA;
   background-color: #C2C2C2;
   border-radius: 15px;
   padding: 10px;
@@ -74,7 +75,7 @@ ul{
   background-color: #f1f1f1;
   border-radius: 15px;
   padding: 10px;
-  margin-top: 70px;
+  margin-top: 10px;
   margin-right: 35px;
   font-style: italic;
 }

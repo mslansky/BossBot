@@ -13,7 +13,6 @@ const HintBotPrompts = {
   provide the easier it is for your manager to advocate on your behalf. Consider creating some documentation in prep.
   Also consider discussing how you plan to continue your success and what your future goals are.`,
   "OtherTopics": `*Hintbot Here!* Other topics you may want to consider discussing is if any new responsibilities will be required. Take this time to ask your boss about expectations or certain changes. Some companies may require management duties at certain pay grades.`,
-  "OtherTopicsResponse": null,
   "Salary": `*Hintbot Here!* Getting down to 'brass tax' can be scary but don't undersell yourself and be specific! Do your research 
   and understand what your local market rate is. Ask for a very specific number.`,
   "Finish": "Great Job! Please check out our other resources or practice again!"
@@ -24,9 +23,8 @@ const BossBotPrompts = {
   "WhatPrompted": "BossBot: What prompted you to bring this up?",
   "Performance": "BossBot: Okay, Let's talk about your performance in detail.",
   "OtherTopics": "BossBot: You're making a compelling case. Is there anything else you'd like to discuss?",
-  "OtherTopicsResponse": "BossBot: Those are some great questions. I'll have to get back to you on those.",
-  "Salary": "BossBot: Okay, thanks for being specific. That makes my job easier. You've given me the right info to take the next steps, I will let you know what I decide.",
-  "Finish": null
+  "Salary": "BossBot: Those are some great questions. I'll have to get back to you on those.",
+  "Finish": "BossBot: Okay, thanks for being specific. That makes my job easier. You've given me the right info to take the next steps, I will let you know what I decide.",
 };
 
 let currentStage = "Start"
