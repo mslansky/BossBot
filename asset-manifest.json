@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.454a3d06.chunk.css",
-    "main.js": "/static/js/main.18a1a371.chunk.js",
-    "main.js.map": "/static/js/main.18a1a371.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.240a5ca1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.240a5ca1.js.map",
-    "static/js/2.f0cab713.chunk.js": "/static/js/2.f0cab713.chunk.js",
-    "static/js/2.f0cab713.chunk.js.map": "/static/js/2.f0cab713.chunk.js.map",
-    "static/js/3.68ac9dd5.chunk.js": "/static/js/3.68ac9dd5.chunk.js",
-    "static/js/3.68ac9dd5.chunk.js.map": "/static/js/3.68ac9dd5.chunk.js.map",
+    "main.css": "/BossBot/static/css/main.454a3d06.chunk.css",
+    "main.js": "/BossBot/static/js/main.18a1a371.chunk.js",
+    "main.js.map": "/BossBot/static/js/main.18a1a371.chunk.js.map",
+    "runtime-main.js": "/BossBot/static/js/runtime-main.240a5ca1.js",
+    "runtime-main.js.map": "/BossBot/static/js/runtime-main.240a5ca1.js.map",
+    "static/js/2.f0cab713.chunk.js": "/BossBot/static/js/2.f0cab713.chunk.js",
+    "static/js/2.f0cab713.chunk.js.map": "/BossBot/static/js/2.f0cab713.chunk.js.map",
+    "static/js/3.68ac9dd5.chunk.js": "/BossBot/static/js/3.68ac9dd5.chunk.js",
+    "static/js/3.68ac9dd5.chunk.js.map": "/BossBot/static/js/3.68ac9dd5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.454a3d06.chunk.css.map": "/static/css/main.454a3d06.chunk.css.map",
-    "static/js/2.f0cab713.chunk.js.LICENSE.txt": "/static/js/2.f0cab713.chunk.js.LICENSE.txt"
+    "static/css/main.454a3d06.chunk.css.map": "/BossBot/static/css/main.454a3d06.chunk.css.map",
+    "static/js/2.f0cab713.chunk.js.LICENSE.txt": "/BossBot/static/js/2.f0cab713.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.240a5ca1.js",
