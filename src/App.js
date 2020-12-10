@@ -7,7 +7,7 @@ import Modal from 'react-bootstrap/Modal';
 import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import prompt from './chatbot.js';
-
+import Media from 'react-bootstrap/Media';
 
 export default class App extends React.Component{
   state = {
@@ -73,14 +73,15 @@ export default class App extends React.Component{
 
   render (){
   return (
+    <Media>
     <div className="App">
-      <Navbar bg="dark" variant="dark fixed-top">
+      <Navbar bg="dark" variant="dark fixed-top" className="navbar">
       <Navbar sticky="top" />
       <Navbar.Brand href="#home">BossBot</Navbar.Brand>
-        <Nav className="mr-auto">
+        <Nav>
           <Nav.Link href="#links"><a href="https://www.glassdoor.com/blog/guide/how-to-negotiate-your-salary/">Advice to Read Before Starting</a></Nav.Link>
         </Nav>
-      <Button variant="outline-light" onClick={e => {this.showModal();}}>  Click Here to Learn How To Start</Button>
+      <Button className="my-nav-button" variant="outline-light" onClick={e => {this.showModal();}}>  Click Here to Learn How To Start</Button>
       </Navbar>
 
       
@@ -119,6 +120,7 @@ export default class App extends React.Component{
       </InputGroup>
       </div>
     </div>
+    </Media>
     );
   }
 }

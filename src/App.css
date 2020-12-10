@@ -26,9 +26,7 @@ a:hover{
 .conversation{
   background-color:white;
   margin-bottom: 20px;
-  margin-left: 190px;
   height: 100vh;
-  width: 100vh;
   overflow: scroll;
   margin-right: 35px;
   padding-top:75px;
@@ -90,4 +88,42 @@ ul{
   color: white;
   text-align: center;
   font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+/* This applies from 0px to 600px */
+@media all and (max-width: 600px) {
+  .sidenav {
+    display: none;
+  }
+  .input-group{
+    display: flex;
+    flex-direction:column;
+    width:100%;
+  }
+  .conversation{
+    padding-top: 300px;
+    position: fixed;
+    bottom: 100px;
+  }
+
+  div.footer > div > textarea{
+    width: 100% !important;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .conversation{
+    margin-left: 190px;
+    width: 100vh;
+  }
+
+  .my-nav-button{
+    position: absolute;
+    right: 10px;
+  }
 }
