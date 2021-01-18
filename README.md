@@ -23,3 +23,6 @@ Tech Stack: This project utilizes Reactjs, Bootstrap, JSX, Github Pages
 
 Cited Study: https://gap.hks.harvard.edu/do-women-avoid-salary-negotiations-evidence-large-scale-natural-field-experiment
 Leibbrandt, Andreas, and John A. List. "Do women avoid salary negotiations? Evidence from a large-scale natural field experiment." Management Science 61.9 (2015): 2016-2024.
+
+
+![Screen Shot 2021-01-18 at 5 58 26 PM](https://user-images.githubusercontent.com/62613007/104972254-d1942900-59b6-11eb-923c-e5232d00c6cb.png)
