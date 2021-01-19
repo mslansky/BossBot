@@ -29,3 +29,6 @@ Leibbrandt, Andreas, and John A. List. "Do women avoid salary negotiations? Evid
 
 ![bossbotchat](https://user-images.githubusercontent.com/62613007/104972402-49625380-59b7-11eb-8eca-3a8420d7d704.png)
 
+![unnamed-1](https://user-images.githubusercontent.com/62613007/104973663-fee2d600-59ba-11eb-9a99-b119f2fd14d6.jpg)
+
+
